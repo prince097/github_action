@@ -20,3 +20,5 @@ jobs:
       run: python factorial.py
     - name: Test with pytest
       run: pytest test.py
+    - name: Run docker
+      run: docker run hello-world
