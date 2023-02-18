@@ -1,0 +1,9 @@
+name: Greetings
+
+on: [push]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello Pranjal"
