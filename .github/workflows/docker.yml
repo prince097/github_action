@@ -1,0 +1,9 @@
+name: docker workflow
+
+on: [push]
+
+jobs:
+  docker run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: docker run hello-world
